@@ -11,7 +11,6 @@
 
 let items = document.querySelectorAll('.item')
 console.log(`В списе ${items.length} категории`)
-console.log(items)
 for (let el of items) {
   console.log(`Категория: `, el.querySelector('h2').innerHTML)
   console.log(`Количество элементов: `, el.querySelectorAll('li').length)

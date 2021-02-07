@@ -16,7 +16,6 @@ const ingredients = [
 ];
 
 let ul = document.getElementById('ingredients')
-// let li = document.createElement('li')
 for (let item of ingredients) {
   let li = document.createElement('li')
   li.innerHTML = item
