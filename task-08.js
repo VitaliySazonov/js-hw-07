@@ -14,7 +14,7 @@
 let boxes = document.getElementById('boxes')
 let createBtn = document.querySelector('button[data-action=render]')
 let clearBtn = document.querySelector('button[data-action=destroy]')
-let inputNumber = document.querySelector('input')
+let inputNumber = document.getElementById('boxNumber')
 
 
 createBtn.addEventListener('click', () => createBoxes(inputNumber.value))
