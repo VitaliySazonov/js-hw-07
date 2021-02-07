@@ -14,3 +14,11 @@ const ingredients = [
   'Зелень',
   'Приправы',
 ];
+
+let ul = document.getElementById('ingredients')
+// let li = document.createElement('li')
+for (let item of ingredients) {
+  let li = document.createElement('li')
+  li.innerHTML = item
+  ul.append(li)
+}
