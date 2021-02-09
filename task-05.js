@@ -5,4 +5,4 @@
 
 let input = document.getElementById('name-input')
 let output = document.getElementById('name-output')
-input.addEventListener('keyup', () => output.innerHTML = input.value)
+input.addEventListener('input', event => output.innerHTML = event.target.value)

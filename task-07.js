@@ -6,4 +6,4 @@
 let range = document.getElementById('font-size-control')
 let span = document.getElementById('text')
 span.style.fontSize = range.value +'px'
-range.addEventListener('input', () => span.style.fontSize = range.value +'px')
+range.addEventListener('input', event => span.style.fontSize = event.target.value +'px')
